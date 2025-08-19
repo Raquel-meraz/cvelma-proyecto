@@ -6,8 +6,9 @@ import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <BrowserRouter basename="/cvelma-proyecto">  
+    <BrowserRouter basename="/cvelma-proyecto">
       <App />
     </BrowserRouter>
   </React.StrictMode>
 )
+
