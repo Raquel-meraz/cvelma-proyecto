@@ -1,0 +1,104 @@
+.admin-panel-container {
+  min-height: 100vh;
+  background: #f8fafc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.admin-panel-navbar {
+  width: 100%;
+  background: #30475e;
+  color: #fff;
+  padding: 18px 28px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 2px 9px #0002;
+  font-size: 1.2em;
+}
+
+.admin-panel-title {
+  font-weight: 700;
+  font-size: 1.2em;
+  letter-spacing: 0.5px;
+}
+
+.admin-panel-back-btn {
+  background: #2d4059;
+  color: #fff;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background 0.2s;
+}
+.admin-panel-back-btn:hover {
+  background: #182039;
+}
+
+.admin-panel-main {
+  width: 100%;
+  max-width: 700px;
+  margin: 40px auto 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.admin-panel-section {
+  background: #fff;
+  border-radius: 13px;
+  box-shadow: 0 3px 12px #0001;
+  padding: 30px 30px 22px 30px;
+  margin-bottom: 10px;
+}
+
+.admin-panel-section h2 {
+  color: #30475e;
+  margin-bottom: 11px;
+}
+.admin-usuarios-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  background: #f9fbfd;
+  box-shadow: 0 2px 9px #30475e11;
+  border-radius: 9px;
+  overflow: hidden;
+}
+.admin-usuarios-table th, .admin-usuarios-table td {
+  border: 1px solid #e3e7ef;
+  padding: 11px 9px;
+  text-align: left;
+  font-size: 1em;
+}
+.admin-usuarios-table th {
+  background: #30475e;
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+}
+.admin-btn-hacer-admin {
+  background: #30475e;
+  color: #fff;
+  border: none;
+  padding: 7px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background 0.15s;
+}
+.admin-btn-hacer-admin:hover {
+  background: #2d4059;
+}
+.admin-panel-mensaje {
+  margin-top: 14px;
+  color: #145a1b;
+  background: #eafbe7;
+  border-left: 4px solid #22c55e;
+  padding: 8px 13px;
+  border-radius: 6px;
+  font-size: 1em;
+}

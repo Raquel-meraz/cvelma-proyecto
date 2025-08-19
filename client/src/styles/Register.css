@@ -1,0 +1,132 @@
+body, html {
+  background: #f3f6fa;
+  min-height: 100vh;
+  font-family: 'Segoe UI', 'Roboto', Arial, sans-serif;
+  margin: 0;
+}
+
+.login-card {
+  background: #fff;
+  max-width: 370px;
+  width: 100%;
+  margin: 60px auto 0 auto;
+  border-radius: 16px;
+  box-shadow: 0 6px 32px #2d405922, 0 1.5px 8px #30475e11;
+  padding: 38px 28px 30px 28px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  animation: fadeInLogin .7s;
+}
+
+@keyframes fadeInLogin {
+  from { opacity: 0; transform: translateY(40px);}
+  to { opacity: 1; transform: none;}
+}
+
+.login-title {
+  font-size: 2em;
+  margin-bottom: 18px;
+  color: #30475e;
+  font-weight: 700;
+  text-align: center;
+}
+
+.login-label {
+  font-weight: 500;
+  font-size: 1em;
+  margin-bottom: 8px;
+  width: 100%;
+  color: #263159;
+  letter-spacing: 0.2px;
+  display: flex;
+  flex-direction: column;
+}
+
+.login-input {
+  width: 100%;
+  margin-top: 6px;
+  margin-bottom: 6px;
+  padding: 11px 14px;
+  font-size: 1em;
+  border-radius: 7px;
+  border: 1.5px solid #bcc8dd;
+  background: #f8fafc;
+  transition: border-color 0.19s, box-shadow 0.18s;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.login-input:focus {
+  border-color: #30475e;
+  box-shadow: 0 1.5px 9px #30475e1c;
+  background: #f3f8fd;
+}
+
+.login-btn {
+  margin-top: 18px;
+  width: 100%;
+  padding: 12px 0;
+  background: linear-gradient(90deg, #30475e 80%, #222f3e 100%);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.07em;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 2.5px 12px #30475e14;
+  letter-spacing: 0.2px;
+  transition: background 0.16s, transform 0.13s;
+}
+
+.login-btn:hover, .login-btn:focus {
+  background: linear-gradient(90deg, #222f3e 80%, #30475e 100%);
+  transform: translateY(-2px) scale(1.018);
+}
+
+.login-form-error {
+  color: #d32f2f;
+  margin-top: -7px;
+  margin-bottom: 7px;
+  font-size: 0.97em;
+  width: 100%;
+  text-align: left;
+}
+
+.login-main-error {
+  color: #d32f2f;
+  margin-top: 18px;
+  margin-bottom: 0;
+  text-align: center;
+  font-size: 1.01em;
+  font-weight: 500;
+}
+
+.login-register {
+  margin-top: 22px;
+  color: #222f3e;
+  font-size: 1em;
+  text-align: center;
+}
+
+.login-register a {
+  color: #30475e;
+  font-weight: 500;
+  text-decoration: none;
+  transition: color 0.15s;
+}
+.login-register a:hover {
+  color: #1a2639;
+  text-decoration: underline;
+}
+
+@media (max-width: 420px) {
+  .login-card {
+    max-width: 98vw;
+    padding: 20px 2vw 20px 2vw;
+  }
+  .login-title { font-size: 1.5em; }
+}
+
+
+
